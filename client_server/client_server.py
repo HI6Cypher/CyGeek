@@ -22,7 +22,7 @@ while True :
         counter = 1
         with open("data/Inbox.json", "r") as file :
             for i in json.load(file) :
-                text = "[%s]\n------------\nTime: %s\nHostname: %s\nHost: %s\nMessage: %s\n------------\n" \
-                    % (counter, i["time"], i["hostname"], i["host"], i["message"])
+                text = "[%s]\n------------\nTime: %s\nSender: %s\nHostname: %s\nHost: %s\nMessage: %s\n------------\n" \
+                    % (counter, i["time"], i["sender"], i["hostname"], i["host"], i["message"])
                 counter += 1
                 print(text)

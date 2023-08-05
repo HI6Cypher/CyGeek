@@ -7,6 +7,7 @@ def post(hostname, message) :
     
     packet = {
             "time" : time.strftime("%m/%d/%Y--%H:%M:%S"),
+            "sender" : socket.gethostbyname(socket.gethostname()),
             "hostname" : hostname,
             "host" : socket.gethostbyname(hostname),
             "message" : message
