@@ -46,3 +46,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 - The code is based on an original implementation by [HI6Cypher](https://github.com/HI6Cypher)
 - Special thanks to the creators of the socket and threading modules for their contributions to the Python ecosystem
 - Special thanks to ChatGPT-3.5 for helping me to make this readme
+- Any comment to (huaweisclu31@hotmail.com)
