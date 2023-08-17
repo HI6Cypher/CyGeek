@@ -1,4 +1,4 @@
-# CyG33k
+# CyG33k (is developing...)
 
 A simple client-server messaging system that allows users to send and receive messages. The system is implemented in Python using socket and threading modules for network communication and multi-threading
 
